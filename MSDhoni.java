@@ -1,0 +1,2 @@
+class MSDhoni extends Cricketer{
+}

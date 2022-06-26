@@ -1,0 +1,2 @@
+class Budweiser extends Beer{
+}

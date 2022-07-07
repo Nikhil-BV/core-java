@@ -2,7 +2,7 @@ class BigBasketTester{
      
 	 public static void main(String args[]){
 	 
-	     BigBasket bb = new BigBasket();
+	     BigBasketDTO bb = new BigBasketDTO();
 		 
 		 bb.setStartupName("BIGBASKET");
 		 bb.setHeadquarter("Banglore");

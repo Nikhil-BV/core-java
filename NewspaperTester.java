@@ -2,7 +2,7 @@ class NewspaperTester{
 
          public static void main (String args[]){
 		 
-		 Newspaper np = new Newspaper();
+		 NewspaperDTO np = new NewspaperDTO();
 		 
 		 np.setName("Vijaya Vani");
 		 np.setType("Daily");

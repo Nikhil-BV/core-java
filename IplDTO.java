@@ -1,6 +1,6 @@
-class Ipl{
+public class IplDTO{
 
-    public Ipl(){
+    public IplDTO(){
 	}
 	
 	private String countries;

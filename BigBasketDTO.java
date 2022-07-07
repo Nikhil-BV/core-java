@@ -1,6 +1,6 @@
-class BigBasket{
+public class BigBasketDTO{
       
-	   public BigBasket(){
+	   public BigBasketDTO(){
 	   }
 	   
 	   private String startupName;

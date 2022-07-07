@@ -1,8 +1,8 @@
 class GameTester{
 	public static void main(String a[]){
 		
-		Games gm = new Games();
-		gm.setName("BGMI");
+		GamesDTO gm = new GamesDTO();
+		gm.setName("PUBG");
 		gm.setType("online");
 		gm.setTotalPlayers(100);
 		gm.setOrigin("South Korea");

@@ -2,7 +2,7 @@ class StadiumTester{
 	
 	public static void main(String args[]){
 		
-		Stadium std = new Stadium();
+		StadiumDTO std = new StadiumDTO();
 		std.setName("M.Chinnaswamw Stadium");
 		std.setType("Cricket stadium");
 		std.setLocation("Bangalore");

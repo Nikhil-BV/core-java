@@ -1,6 +1,6 @@
-class Stadium{
+public class StadiumDTO{
    
-   public Stadium(){
+   public StadiumDTO(){
 	   
    }
    

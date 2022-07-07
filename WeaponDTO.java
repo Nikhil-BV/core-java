@@ -1,15 +1,16 @@
-class Games{
-	public Games(){
-	}
-	
-  private String name;
-  private String type;
-  private int totalPlayers;
-  private String origin;
+public class WeaponDTO{
+
+	   public WeaponDTO(){
+	    }
+          private String name;
+          private String type;
+          private double range;
+          private String origin;
 
      public String getName(){
 	  return name;
      }
+	 
      public void setName(String name){ 
 	   this.name=name;
 	 }
@@ -17,23 +18,24 @@ class Games{
 	 public String getType(){
 		 return type;
 	 }
+	 
 	 public void setType(String type){
 		 this.type=type;
 	 }
 	 
-	 public int getTotalPlayers(){
-		 return totalPlayers;
+	 public double getRange(){
+		 return range;
 	 }
-	 public void setTotalPlayers(int totalPlayers){
-		 this.totalPlayers=totalPlayers;
+	 
+	 public void setRange(double range){
+		 this.range=range;
 	 }
 	 
 	 public String getOrigin(){
 		 return origin;
 	 }
+	 
 	 public void setOrigin(String origin){
 		 this.origin=origin;
 	 }
-	 
-	
 }

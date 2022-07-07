@@ -1,5 +1,5 @@
-class Oximeter{
-	public Oximeter(){
+public class OximeterDTO{
+	public OximeterDTO(){
 	}
 	
          private String brandName;

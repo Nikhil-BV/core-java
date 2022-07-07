@@ -2,7 +2,7 @@ class MusicPlayerTester{
 
      public static void main(String args[]){
 	 
-	     MusicPlayer mp = new MusicPlayer();
+	     MusicPlayerDTO mp = new MusicPlayerDTO();
 		 mp.setBrand("Saregama Carvaan");
 		 mp.setColor("Porcelain White");
 		 mp.setConnectorType("Bluetooth");

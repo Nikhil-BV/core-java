@@ -1,7 +1,7 @@
 class TvChannelTester{
    
             public static void main(String a[]){
-		           TvChannel tv = new TvChannel();
+		           TvChannelDTO tv = new TvChannelDTO();
 		           tv.setBrand("SunDirect");
 				   tv.setAvailableChannels("all kannada and Hindhi channels");
 				   tv.setMonthlyCharges(260);

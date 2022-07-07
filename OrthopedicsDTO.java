@@ -1,6 +1,6 @@
-class Orthopedics{
+public class OrthopedicsDTO{
 
-	public Orthopedics(){
+	public OrthopedicsDTO(){
 	}
 	
        private String name;

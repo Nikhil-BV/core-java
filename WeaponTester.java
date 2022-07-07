@@ -2,7 +2,7 @@ class WeaponTester{
 
 	public static void main(String a[]){
 		
-		Weapon wp = new Weapon();
+		WeaponDTO wp = new WeaponDTO();
 		wp.setName("Ak47");
 		wp.setType("Machine Gun");
 		wp.setRange(80);

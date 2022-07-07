@@ -1,7 +1,7 @@
 class OximeterTester{
 	public static void main(String a[]){
 		
-		Oximeter om = new Oximeter();
+		OximeterDTO om = new OximeterDTO();
 		om.setBrandName("Zebronics");
 		om.setType("Pulse oximeter");
 		om.setDevelopedIn(1935);

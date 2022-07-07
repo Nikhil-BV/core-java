@@ -1,6 +1,7 @@
-class Airport{
+public class AirportDTO{
+
      
-	 public Airport(){
+	 public AirportDTO(){
 	 }
 	 
 	 private String name ;

@@ -2,7 +2,7 @@ class NovelTester{
       
 	  public static void main(String args[]){
 	  
-	      Novel no = new Novel();
+	      NovelDTO no = new NovelDTO();
 		  
 		  no.setTitle("Death");
 		  no.setAuthor("Jaggi Vasudev");

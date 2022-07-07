@@ -1,6 +1,6 @@
-class TvChannel{
+public class TvChannelDTO{
 	
-	public TvChannel(){
+	public TvChannelDTO(){
 	}
 	
 	   private String brand;

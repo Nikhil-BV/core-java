@@ -1,6 +1,6 @@
-class Novel{
+public class NovelDTO{
     
-	public Novel(){
+	public NovelDTO(){
 	}
 	
 	private String title;

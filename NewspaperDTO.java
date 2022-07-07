@@ -1,6 +1,6 @@
-class Newspaper{
+public class NewspaperDTO{
          
-		 public Newspaper(){
+		 public NewspaperDTO(){
 		 }
 		 
 		 private String name;

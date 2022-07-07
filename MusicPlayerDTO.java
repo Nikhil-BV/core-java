@@ -1,6 +1,6 @@
-class MusicPlayer{
+public class MusicPlayerDTO{
     
-	public MusicPlayer(){
+	public MusicPlayerDTO(){
 	}
 	
 	private String brand;

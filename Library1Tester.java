@@ -35,6 +35,30 @@ class Library1Tester{
 			}			
 			
 			lib.getBookDetails();
+		 System.out.println("Enter the existing id for update language");
+		 int existingId = sc.nextInt();
+		 System.out.println("Enter the address to be update");
+		 String updatedLanguage = sc.nextLine();
+		 lib.updateBookLanguageById(existingId,updatedLanguage);
+		 lib.getBookDetails();
+		 
+		 lib.getBookDetails();
+		 System.out.println("enter the existing name for update Author");
+		 String existingName = sc.next();
+		 System.out.println("Enter the Author to be update");
+		 String updatedAuthor = sc.next();
+		 lib.updateBookAuthorByName(existingName,updatedAuthor);
+		 lib.getBookDetails();
+		 
+		 System.out.println("enter the Author of Book to be delete");
+		 String existingAuthor1 = sc.next();
+		 lib.deleteBookByAuthor(existingAuthor1);
+		 lib.getBookDetails();
+		 
+		 System.out.println("enter the Id of Book to be delete");
+		 int existingId = sc.nextInt();
+		 lib.deleteBookById(existingId);
+		 lib.getBookDetails();
 			  
 		  }
 

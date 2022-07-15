@@ -1,14 +1,14 @@
-import java.util.Scanner;
+import java.util.Scanner ;
 
-class Airport1Tester{
-	
-	   public static void main(String a[]){
+class AirportTester{
+
+      public static void main(String a[]){
 	     
 		 Scanner sc = new Scanner(System.in);
 		 System.out.println("Enter the Number of terminals");
 		 int size = sc.nextInt();
 		 
-		 Airport1 airport = new Airport1(size);
+		 Airport airport = new Airport(size);
 		 
 		for(int i=0; i<size;i++) {
 			
@@ -36,6 +36,31 @@ class Airport1Tester{
 		 
 		 }
 		 
+		 /*airport.getTerminalDetails();
+		 System.out.println("Enter the existing id to update the loading bridges");
+		 int existingId = sc.nextInt();
+		 System.out.println("Enter no of loading bridges to be update");
+		 int updateLoadingBridges = sc.nextInt();
+		 airport.updateLoadingBridgeById(existingId, updateLoadingBridges);
+		 airport.getTerminalDetails();
+		 
+		 
+		 System.out.println("Enter the existing Name to update the no of checkin counters");
+		 String existingName = sc.next();
+		 System.out.println("Enter no of check in counters to be update");
+		 int updateCheckInCounters = sc.nextInt();
+		 airport.updateNoOfCheckInCoountersByName(existingName, updateCheckInCounters);
+		 
+		 airport.getTerminalDetails();*/
+		 
+		 airport.getTerminalDetails();
+		 System.out.println("Enter the name to be deleted");
+		 String name1 = sc.next();
+		 airport.deleteTerminalsByName(name1);
+		 airport.getTerminalDetails();
+		 System.out.println("enter the id to be deleted");
+		 int id1 = sc.nextInt();
+		 airport.deleteTerminalsById(id1);
 		 airport.getTerminalDetails();
 	  
 	  }

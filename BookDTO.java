@@ -1,48 +1,54 @@
 class BookDTO{
     
-	 public BookDTO(){
-		 System.out.println("Book const created");
-	 }
-	 
 	 private int id;
-	 private String bookName;
+	 private String name;
 	 private String author;
-	 private String language;
-	 private String publisher;
+	 private String publication;
+	 private String type;
 	 
+	 public BookDTO(){
+		 
+	 }
 	 public int getId(){
-		 return id ;
+	    return id;
 	 }
 	 public void setId(int id){
-		 this.id = id;
+	    this.id=id;
 	 }
 	 
-	 public String getBookName(){
-		 return bookName;
+	 public String getName(){
+	   return name;
 	 }
-	 public void setBookName(String bookName){
-		 this.bookName = bookName;
+	 public void setName(String name){
+	    this.name = name;
 	 }
 	 
 	 public String getAuthor(){
-		 return author;
+	    return author;
 	 }
 	 public void setAuthor(String author){
-		 this.author= author;
+	     this.author = author;
 	 }
 	 
-	 public String getLanguage(){
-		 return language;
+	 public String getPublication(){
+	     return publication;
 	 }
-     public void setLanguage(String language){
-		 this.language = language;
-	 }
-	 
-	 public String getPublisher(){
-		 return publisher;
-	 }
-	 public void setPublisher(String publisher){
-		 this.publisher = publisher;
+	 public void setPublication(String publication){
+	      this.publication = publication;
 	 }
 	 
+	 public String getType(){
+	    return type;
+	 }
+	 public void setType(String type){
+	    this.type = type;
+	 }
+	 
+	 @Override
+	 public String toString(){
+		 return "[BooksDTO = Id = "+ this.getId()+", Name= "+this.getName()+", Author = "+this.getAuthor()+", Publication= "+this.getPublication()+", Type= "+this.getType()+"]";
+	 }
+
+
+
 }

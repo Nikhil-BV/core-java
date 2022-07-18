@@ -1,42 +1,45 @@
-class OrderDTO{
+public class OrderDTO {
 
-        public OrderDTO(){
-			System.out.println("order const created");
-		}
-		
-		private int id;
-		private String name;
-		private String orderedDate;
-		private String address;
-		
-     public int getId(){
-		 return id;
+     private int id;
+	 private String name;
+	 private int quantity;
+	 private String type;
+	 
+	 public OrderDTO(){
+	   
+	 }
+	 
+	 public int getId(){
+	    return id;
 	 }
 	 public void setId(int id){
-		 this.id =id;
+	    this.id = id;
 	 }
 	 
 	 public String getName(){
-		 return name;
+	    return name;
 	 }
 	 public void setName(String name){
-		 this.name = name;
+	    this.name = name;
+	 }
+	 public int getQuantity(){
+	    return quantity;
+	 }
+	 public void setQuantity(int quantity){
+	    this.quantity = quantity;
+	 }
+	 public String getType(){
+	    return type;
+	 } 
+	 public void setType(String type){
+	    this.type = type;
 	 }
 	 
-	  public String getOrderedDate(){
-		 return orderedDate;
+	 @Override
+	 public String toString(){
+		 return "[OrderDTO : Id ="+this.getId()+", Name= "+ this.getName()+", Quantity = "+ this.getQuantity()+", Type ="+this.getType()+"]";
 	 }
-	 public void setOrderedDate(String orderedDate){
-		 this.orderedDate = orderedDate;
-	 }
-	 
-	 public String getAddress(){
-		 return address;
-	 }
-	 public void setAddress(String address){
-		 this.address = address;
-	 }
-	 
 	
-		
+
+
 }
